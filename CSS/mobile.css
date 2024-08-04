@@ -1,0 +1,43 @@
+@media screen and (max-width:550px){
+
+  section{
+    margin: 0 3% 40px;
+  }
+
+  header{
+    flex-direction: column;
+    gap: 2rem;
+    padding: 50px 3%;
+  }
+
+  .header_info h2{
+    font-size: 3rem;
+  }
+
+  .header_banner > img{
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .rating{
+    left: 30px;
+    bottom: 10px;
+    width: 180px;
+    height: 80px;
+    padding-left: 10px;
+  
+  }
+
+  .rating_details h4{
+    font-size: 1.8rem;
+  }
+
+  .rating_details p{
+    font-size: .8rem;
+  }
+  /* ------------------Feature Section------------ */
+
+  .feature h2{
+    font-size: 2rem;
+  }
+}
